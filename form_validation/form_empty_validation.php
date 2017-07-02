@@ -1,6 +1,3 @@
-
-
-Result Size: 581 x 582
 <!DOCTYPE HTML>  
 <html>
 <head>
