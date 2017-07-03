@@ -5,7 +5,7 @@
   </head>
   <body>
     <?php
-    $conn = new mysqli('localhost','root','pandu123','testdb');
+    $conn = new mysqli('localhost','root','pass','testdb');
     if ($conn->connect_error){
       echo 'connection error';
       die();
