@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = new mysqli('localhost','root','pandu123','sek091');
+$conn = new mysqli('localhost','root','pass','sek091');
 if ($conn->connect_error){
   echo $conn->connect_error;
   die();
