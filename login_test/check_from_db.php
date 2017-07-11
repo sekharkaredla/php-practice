@@ -4,6 +4,7 @@ $conn = new mysqli('localhost','root','pass','sek091');
 if ($conn->connect_error){
   echo $conn->connect_error;
   die();
+  session_destroy();
 }
 $sql='select * from credentials';
 $result=$conn->query($sql);
