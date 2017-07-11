@@ -9,7 +9,7 @@ function test($data){
 if($_SERVER['REQUEST_METHOD']=='POST'){
   $servername='localhost';
   $username='root';
-  $password='pandu123';
+  $password='pass';
   $database='testdb';
   $conn=new mysqli($servername,$username,$password,$database);
   if($conn->connect_error){

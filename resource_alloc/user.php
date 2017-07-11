@@ -16,7 +16,7 @@ $user=$_SESSION['user'];
 echo '<h1>'.$user.'</h1>';
 $servername='localhost';
 $username='root';
-$password='pandu123';
+$password='pass';
 $database='testdb';
 $conn=new mysqli($servername,$username,$password,$database);
 if($conn->connect_error){
