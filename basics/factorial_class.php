@@ -6,7 +6,7 @@
 <body>
 <?php
 class Process{
-	function Process($x){
+	function Process($x){//constructor
 		$this->result=1;
 		for($k=1;$k<=$x;$k=$k+1)
 			$this->result=$this->result*$k;
